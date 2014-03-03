@@ -1,6 +1,6 @@
 {
 	"name": "cm",
-	"version": "0.3.0",
+	"version": "0.3.2",
 	"main": "./index.js",
 	"homepage": "http://github.com/futagoza/cm",
 	"description": "common Node modules/utils that I use",

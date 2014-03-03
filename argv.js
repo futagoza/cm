@@ -1,5 +1,5 @@
 // utils
-var __slice = Array.prototype.slice;
+var _ = require("./utils");
 function isShort ( arg ) { return arg.indexOf("-") === 0; }
 function isLong ( arg ) { return arg.indexOf("--") === 0; }
 
@@ -9,7 +9,7 @@ var nodeArgv = process.argv.slice(2);
 // node-argv parser
 function parse ( argv ) {
 	if ( !argv ) argv = nodeArgv;
-	if ( !Array.isArray(argv) ) throw TypeError("`argv` argument must be a array!");
+	if ( !_.isArray(argv) ) throw TypeError("`argv` argument must be a array!");
 	
 	var args = {}, list = [], skip;
 	
@@ -34,39 +34,50 @@ function parse ( argv ) {
 		argv: args,
 		length: argv.length,
 		list: list,
-		on: function ( arg, callback, context ) {
-			return parse.on(argv, arg, callback, context) || parse.on(args, arg, callback, context) || parse.on(list, arg, callback, context);
+		on: function ( arg, callback ) {
+			return parse.on(argv, arg, callback) || parse.on(args, arg, callback) || parse.on(list, arg, callback);
 		}
 	};
 }
 
 // if the given arg is in argv, call the callback if one is given and return true
-parse.on = function ( argv, arg, callback, context ) {
-	var i;
+parse.on = function ( argv, arg, callback ) {
+	var i, n;
 	
-	if ( typeof argv === "string" ) {
-		context = callback;
+	if ( arguments.length == 2 ) {
 		callback = arg;
 		arg = argv;
 		argv = nodeArgv;
 	}
-	
-	if ( Array.isArray(argv) ) {
-		i = argv.indexOf(arg);
-		if ( i !== -1 && typeof callback === "function" ) {
-			if ( !isLong(arg) ) {
-				callback.call(context);
-			}
-			
-			callback.call(context, argv[i + 1]);
-		}
-	}
 
-	if ( argv ) {
-		for ( i in argv ) {
-			if ( _.has(argv, i) && i == arg ) callback.call(context, argv[i]);
+	if ( _.isArray(arg) ) {
+
+		for ( n = 0; n < arg.length; n++ ) {
+			if ( parse.on(argv, arg[n], callback) ) break;
 			else i = -1;
 		}
+
+	} else {
+
+		if ( argv ) {
+			if ( _.isArray(argv) ) {
+
+				i = argv.indexOf(arg);
+				if ( i !== -1 && _.isFunction(callback) ) {
+					if ( !isLong(arg) ) callback();
+					else callback(argv[i + 1]);
+				}
+
+			} else {
+
+				for ( i in argv ) {
+					if ( _.has(argv, i) && i == arg ) callback(argv[i]);
+					else i = -1;
+				}
+				
+			}
+		}
+
 	}
 
 	return i !== -1;
