@@ -1,0 +1,4 @@
+.gitignore
+.git/*
+bake.js
+cm-bin.js
