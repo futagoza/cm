@@ -35,7 +35,7 @@ function parse ( argv ) {
 		length: argv.length,
 		list: list,
 		on: function ( arg, callback, context ) {
-			return parse.on(argv, arg, callback, context) || parse.on(args, arg, callback, context);
+			return parse.on(argv, arg, callback, context) || parse.on(args, arg, callback, context) || parse.on(list, arg, callback, context);
 		}
 	};
 }
@@ -51,14 +51,24 @@ parse.on = function ( argv, arg, callback, context ) {
 		argv = nodeArgv;
 	}
 	
-	i = argv.indexOf(arg);
-	if ( i !== -1 && typeof callback === "function" ) {
-		if ( !isLong(arg) ) {
-			callback.call(context);
+	if ( Array.isArray(argv) ) {
+		i = argv.indexOf(arg);
+		if ( i !== -1 && typeof callback === "function" ) {
+			if ( !isLong(arg) ) {
+				callback.call(context);
+			}
+			
+			callback.call(context, argv[i + 1]);
 		}
-		
-		callback.call(context, argv[i + 1]);
 	}
+
+	if ( argv ) {
+		for ( i in argv ) {
+			if ( _.has(argv, i) && i == arg ) callback.call(context, argv[i]);
+			else i = -1;
+		}
+	}
+
 	return i !== -1;
 };
 
