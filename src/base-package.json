@@ -1,0 +1,50 @@
+{
+  "keywords": [
+    "cm",
+    "common",
+    "utils"
+  ],
+  "homepage": "https://github.com/futagoza/cm",
+  "author": {
+    "name": "Futago-za Ryuu",
+    "email": "futagoza.ryuu@gmail.com",
+    "url": "https://futagoza.github.io/"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/futagoza/cm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/futagoza/cm/issues"
+  }
+  "dependencies": {
+    "uuid": "2.0.1",
+    "uglify-js": "2.4.16",
+    "graceful-fs": "3.0.5",
+    "fs-extra": "0.16.3",
+    "walker": "1.0.6",
+    "chokidar": "1.0.0-rc3",
+    "glob":  "4.3.5",
+    "mkdirp": "0.5.0",
+    "rimraf": "2.2.8",
+    "debug": "2.1.1",
+    "download": "3.3.0",
+    "download-status": "2.1.1",
+		"shelljs": "0.3.0",
+		"coffee-script": "1.9.0",
+		"typescript": "1.4.1",
+		"pegjs": "git://github.com/pegjs/pegjs.git#73795a65ccda02da106691dd3f35abe320714b65"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 0.10.0",
+    "npm": ">= 1.0.0",
+    "iojs": ">= 1.0.0"
+  }
+}
