@@ -11,6 +11,11 @@ task(function(project, path){
     require(join(SRC_DIR, "base-package.json"))
   );
 
-  writeFile(join(path, 'package.json'), JSON.stringify(package, null, '  '));
   writeFile(join(path, '.npmignore'), readFile(join(SRC_DIR, ".npmignore")));
+  writeFile(join(path, 'LICENSE'), readFile(join(ROOT_DIR, "LICENSE")));
+  writeFile(join(path, 'package.json'), JSON.stringify(package, null, '  '));
+  writeFile(join(path, 'README.md'), str_replace(readFile(join(SRC_DIR, "readme-template.md")), {
+    '$(id)': project, '$(name)': package.name, '$(discription)': package.discription
+  }));
+
 });

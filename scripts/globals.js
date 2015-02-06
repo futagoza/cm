@@ -92,3 +92,14 @@ globals.task = function ( action ) {
     action(project, path);
   }
 };
+
+global.str_replace = function ( string, dictionary ) {
+  each(dictionary, function(value, key){
+    if ( value === null || value === void 0 ) value = "";
+      if ( typeof key === 'string' ) {
+        key = new RegExp(key, 'g');
+      }
+      string = string.replace(key, value);
+  });
+  return string;
+};

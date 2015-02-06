@@ -6,7 +6,15 @@ if ( argc === 0 ) {
 
 task(function(project, path){
 
-  rm(join(path, 'package.json'));
-  rm(join(path, '.npmignore'));
+  each([
+
+      '.npmignore',
+      'LICENSE',
+      'package.json',
+      'README.md'
+
+  ], function ( filename ) {
+    rm(join(path, filename));
+  });
 
 });
