@@ -1,18 +1,18 @@
-$(discription)
+#{description}
 
 NPM Install
 -----------
 
   ```shell
-  npm install $(name)
+  npm install #{name}
   ```
 
 Links
 -----
 
-  Source: [https://github.com/futagoza/cm/tree/master/packages/$(id)](https://github.com/futagoza/cm/tree/master/packages/$(id))<br>
+  Source: [https://github.com/futagoza/cm/tree/master/packages/#{id}](https://github.com/futagoza/cm/tree/master/packages/#{id})<br>
   Issues: [https://github.com/futagoza/cm/issues](https://github.com/futagoza/cm/issues)<br>
-  NPM: [https://www.npmjs.com/package/$(name)](https://www.npmjs.com/package/$(name))
+  NPM: [https://www.npmjs.com/package/#{name}](https://www.npmjs.com/package/#{name})
 
 License
 -------

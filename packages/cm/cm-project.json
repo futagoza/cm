@@ -5,9 +5,6 @@
   "browser": "browser.js",
   "description": "Common modules and utils that I use in browsers and on Node.js, IO.js and NW.js",
   "keywords": [
-    "cm",
-    "common",
-    "utils",
     "browser",
     "node",
     "iojs",

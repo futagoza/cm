@@ -5,7 +5,6 @@ var UglifyJS = require('uglify-js');
 global.rm = require('rimraf').sync;
 global.mkdir = require('mkdirp').sync;
 global.exec = require('child_process').exec;
-global.merge = require('deap').merge;
 
 global.exists = fs.existsSync;
 global.basename = path.basename;
@@ -78,7 +77,7 @@ global.each = function ( object, iterator, context ) {
 	}
 };
 
-globals.task = function ( action ) {
+global.task = function ( action ) {
   var project = argv[0], path;
   if ( project === "*" || project === "all" ) {
     fs.readdirSync(PACKAGES_DIR).forEach(function(item){
