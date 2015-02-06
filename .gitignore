@@ -1,2 +1,6 @@
 node_modules
 npm-debug.log
+packages/*/.npmignore
+packages/*/LICENSE
+packages/*/package.json
+packages/*/README.md
