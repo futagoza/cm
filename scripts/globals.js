@@ -2,8 +2,10 @@ var fs = require('fs-extra');
 var path = require('path');
 var UglifyJS = require('uglifyjs');
 
+global.rm = require('rimraf').sync;
 global.mkdir = require('mkdirp').sync;
 global.exec = require('child_process').exec;
+global.merge = require('deap').merge;
 
 global.exists = fs.existsSync;
 global.basename = path.basename;
@@ -15,6 +17,9 @@ global.resolve = path.resolve;
 global.ROOT_DIR = join(__dirname, '..');
 global.PACKAGES_DIR = join(ROOT_DIR, 'packages');
 global.SRC_DIR = join(ROOT_DIR, 'src');
+
+global.argv = process.argv.slice(2);
+global.argc = argv.length;
 
 global.readFile = function ( filename ) {
   return fs.readFileSync(filename).toString();
@@ -59,4 +64,31 @@ global.minify = function ( data ) {
 var newLineChars = /(\n|\r\n|\r|\u2028|\u2029)/g;
 global.indent = function ( data, tabs ) {
   return (tabs || "  ") + data.replace(newLineChars, function(m, nl){ return nl + (tabs || "  "); });
+};
+
+global.each = function ( object, iterator, context ) {
+	if ( Array.isArray(object) ) {
+		object.forEach(iterator, context);
+	} else {
+		for ( var key in object ) {
+			if ( object.hasOwnProperty(key) ) {
+				iterator.call(context, object[key], key, object);
+			}
+		}
+	}
+};
+
+globals.task = function ( action ) {
+  var project = argv[0], path;
+  if ( project === "*" || project === "all" ) {
+    fs.readdirSync(PACKAGES_DIR).forEach(function(item){
+      action(item, join(PACKAGES_DIR, item));
+    });
+  } else {
+    path = join(PACKAGES_DIR, project);
+    if ( !exists(path) ) {
+      abort("The project '" + project + "' is not a known cm project.");
+    }
+    action(project, path);
+  }
 };
