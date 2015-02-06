@@ -1,6 +1,6 @@
 var fs = require('fs-extra');
 var path = require('path');
-var UglifyJS = require('uglifyjs');
+var UglifyJS = require('uglify-js');
 
 global.rm = require('rimraf').sync;
 global.mkdir = require('mkdirp').sync;
