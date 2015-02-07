@@ -66,15 +66,15 @@ global.indent = function ( data, tabs ) {
 };
 
 global.each = function ( object, iterator, context ) {
-	if ( Array.isArray(object) ) {
-		object.forEach(iterator, context);
-	} else {
-		for ( var key in object ) {
-			if ( object.hasOwnProperty(key) ) {
-				iterator.call(context, object[key], key, object);
-			}
-		}
-	}
+  if ( Array.isArray(object) ) {
+    object.forEach(iterator, context);
+  } else {
+    for ( var key in object ) {
+      if ( object.hasOwnProperty(key) ) {
+        iterator.call(context, object[key], key, object);
+      }
+    }
+  }
 };
 
 global.task = function ( action ) {
