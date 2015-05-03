@@ -1,11 +1,8 @@
 {
   "private": true,
   "dependencies": {
-    "uglify-js": "2.4.16",
-    "graceful-fs": "3.0.5",
-    "fs-extra": "0.16.3",
-    "mkdirp": "0.5.0",
-    "rimraf": "2.2.8"
+    "uglify-js": "2.4.20",
+    "efe": "0.0.7"
   },
   "engines": {
     "node": ">= 0.10.0",

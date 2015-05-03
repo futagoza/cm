@@ -1,17 +1,18 @@
-var fs = require('fs-extra');
-var path = require('path');
+var fs = require('efe');
 var UglifyJS = require('uglify-js');
 
-global.rm = require('rimraf').sync;
-global.mkdir = require('mkdirp').sync;
+global.rm = fs.removeSync;
+global.mkdir = fs.mkdirsSync;
 global.exec = require('child_process').exec;
 
 global.exists = fs.existsSync;
-global.basename = path.basename;
-global.dirname = path.dirname;
-global.extname = path.extname;
-global.join = path.join;
-global.resolve = path.resolve;
+global.basename = fs.basename;
+global.dirname = fs.dirname;
+global.extname = fs.extname;
+global.join = fs.join;
+global.resolve = fs.resolve;
+global.lstat = fs.lstatSync;
+global.walk = fs.walkSync;
 
 global.ROOT_DIR = join(__dirname, '..');
 global.PACKAGES_DIR = join(ROOT_DIR, 'packages');
@@ -27,25 +28,6 @@ global.readFile = function ( filename ) {
 global.writeFile = function ( filename, data ) {
   mkdir(dirname(filename));
   return fs.writeFileSync(filename, data);
-};
-
-global.lstat = function ( path ) {
-  var stat = fs.lstatSync(path);
-  stat.path = path;
-  stat.basename = basename(path);
-  stat.dirname = dirname(path);
-  stat.extname = extname(path);
-  return stat;
-};
-
-global.walk = function ( path, callback ) {
-  var stat = lstat(path);
-  if ( stat.isDirectory() )
-    fs.readdirSync(path).forEach(function(item){
-      walk(join(path, item), callback);
-    });
-  else
-    callback(path, stat);
 };
 
 global.readdir = function ( path ) {
