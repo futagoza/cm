@@ -1,6 +1,5 @@
-node_modules
-npm-debug.log
-packages/*/.npmignore
-packages/*/LICENSE
-packages/*/package.json
-packages/*/README.md
+/dist/**/*.js
+/node_modules
+/.eslintcache
+/.mtcache.json
+/npm-debug.log
