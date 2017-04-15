@@ -3,21 +3,11 @@
   "version": "0.6.0",
   "main": "index.js",
   "browser": "browser.js",
-  "description": "Common modules and utils that I use in browsers and on Node.js, IO.js and NW.js",
+  "description": "A collection of classes and functions usable in Node.js v4+",
   "keywords": [
     "browser",
     "node",
-    "iojs",
     "nwjs",
-    "node-webkit"
-  ],
-  "bin": {
-    "coffee": "bin/coffee",
-    "cake": "bin/cake",
-    "tsc": "bin/tsc",
-    "pegjs": "bin/pegjs",
-    "mkdirp": "bin/mkdirp",
-    "nake": "bin/nake",
-    "package": "bin/package"
-  }
+    "electron"
+  ]
 }
