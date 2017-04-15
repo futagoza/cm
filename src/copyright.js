@@ -1,7 +1,7 @@
 /*
   This package is part of the cm project: https://github.com/futagoza/cm
 
-  Copyright (c) 2012-2015 Futago-za Ryuu, Erispa <futagoza.ryuu@gmail.com>
+  Copyright (c) 2012-2017 Futago-za Ryuu, Erispa <futagoza.ryuu@gmail.com>
   The MIT License, http://opensource.org/licenses/MIT
 
   Permission is hereby granted, free of charge, to any person obtaining a copy

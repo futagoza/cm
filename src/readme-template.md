@@ -16,5 +16,5 @@ Links
 
 License
 -------
-Copyright © 2012-2015 Futago-za Ryuu<br>
+Copyright © 2012-2017 Futago-za Ryuu<br>
 Licensed under the [MIT License](http://opensource.org/licenses/MIT)
