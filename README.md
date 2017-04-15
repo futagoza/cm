@@ -1,5 +1,22 @@
 A collection of classes and functions usable in Node.js v4+
 
+Install
+=======
+
+  ```shell
+  npm install cm
+  ```
+
+  ```shell
+  git clone https://github.com/futagoza/cm.git
+  ```
+
+Links
+=====
+
+* Source: [https://github.com/futagoza/cm](https://github.com/futagoza/cm)<br>
+* Issues: [https://github.com/futagoza/cm/issues](https://github.com/futagoza/cm/issues)<br>
+
 Packages
 ========
 

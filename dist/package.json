@@ -1,8 +1,17 @@
 {
+  "name": "cm",
+  "version": "0.6.0",
+  "main": "index.js",
+  "browser": "browser.js",
+  "description": "A collection of classes and functions usable in Node.js v4+",
   "keywords": [
     "cm",
     "common",
-    "utils"
+    "utils",
+    "browser",
+    "node",
+    "nwjs",
+    "electron"
   ],
   "homepage": "https://github.com/futagoza/cm",
   "author": {
@@ -11,7 +20,6 @@
     "url": "https://futagoza.github.io/"
   },
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
