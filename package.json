@@ -1,8 +1,20 @@
 {
   "private": true,
   "dependencies": {
-    "uglify-js": "2.4.20",
-    "efe": "0.0.7"
+    "npm-run-all": "4.0.2",
+    "markdown-toc": "1.1.0",
+    "eslint": "3.19.0",
+    "eslint-config-futagozaryuu": "2.1.0",
+    "babel-core": "6.24.1",
+    "babel-preset-env": "1.4.0",
+    "babel-preset-stage-0": "6.24.1",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "jsdoc": "3.4.3",
+    "minami": "1.1.1",
+    "benchr": "3.4.0",
+    "mocha": "3.2.0",
+    "mkdirp": "0.5.1",
+    "rimraf": "2.6.1"
   },
   "engines": {
     "node": ">= 4.0.0"

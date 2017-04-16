@@ -31,6 +31,9 @@
     "url": "https://github.com/futagoza/cm/issues"
   },
   "dependencies": {
+      "micromatch": "2.3.11",
+      "rimraf": "2.6.1",
+      "babel-runtime": "6.23.0"
   },
   "devDependencies": {
   },
