@@ -15,8 +15,11 @@ prepare:
 publish:
 	node scripts/npm-publish.js $(PACKAGE)
 
+docs:
+	./node_modules/.bin/jsdoc -c .jsdoc.json --verbose
+
 clean:
 	node scripts/clean-module.js $(PACKAGE)
 
-.PHONY:  all compile build prepare publish clean
-.SILENT: all compile build prepare publish clean
+.PHONY:  all compile build prepare publish docs clean
+.SILENT: all compile build prepare publish docs clean
