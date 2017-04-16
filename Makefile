@@ -18,8 +18,12 @@ publish:
 docs:
 	./node_modules/.bin/jsdoc -c .jsdoc.json --verbose
 
+readme:
+	./node_modules/.bin/markdown-toc -i README.md
+	cp README.md dist/README.md
+
 clean:
 	node scripts/clean-module.js $(PACKAGE)
 
-.PHONY:  all compile build prepare publish docs clean
-.SILENT: all compile build prepare publish docs clean
+.PHONY:  all compile build prepare publish docs readme clean
+.SILENT: all compile build prepare publish docs readme clean

@@ -1,6 +1,7 @@
 /dist/docs
 /dist/**/*.js
 /dist/**/*.map
+/dist/README.md
 /node_modules
 /.eslintcache
 /.mtcache.json
