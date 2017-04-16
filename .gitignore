@@ -1,5 +1,6 @@
 /dist/docs
 /dist/**/*.js
+/dist/**/*.map
 /node_modules
 /.eslintcache
 /.mtcache.json
