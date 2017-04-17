@@ -23,7 +23,7 @@ with a selected subset usable in most ES5 browsers.
 
 # about cm
 
-All source code for this module is written in ES2017+, and transpiled by [Babel 6](https://babeljs.io/) to Node.js v4 compatible JavaScript. A subset of the functions and classes are transpiled using [rollup.js](https://rollupjs.org/) to ES5 comptible JavaScript usable in most browsers availible after 2010.
+All source code for this module is written in ES2017+, and transpiled by [Babel 6](https://babeljs.io/) to Node.js v4 compatible JavaScript. A subset of the functions and classes are transpiled using [rollup.js](https://rollupjs.org/) to ES5 compatible JavaScript usable in most browsers availible after 2010.
 
 # install
 
