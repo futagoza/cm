@@ -1,6 +1,6 @@
 # about
 
-I prefered not to use [changelogs](https://en.wikipedia.org/wiki/Changelog), as they require a constant maintainence. Recently it seems that the best way to keep track of changes to my work (npm modules or various other projects) is via commit messages, so using `conventional-changelog` and `git tag`ging I can automatically generate the buggers, and they actually look better then Github commits pages, plus I get the benefit of Github release's.
+I prefered not to use [changelogs](https://en.wikipedia.org/wiki/Changelog), as they require a constant maintainence. Recently it seems that the best way to keep track of changes to my work (npm modules or various other projects) is via commit messages, so using `conventional-changelog` and `git tag`ging I can automatically generate the buggers, and they actually provide a cleaner overview then Github commit pages.
 
 # rules
 
