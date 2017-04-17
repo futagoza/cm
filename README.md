@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 
 This is a collection of classes and functions usable in [Node.js v4+](https://nodejs.org/en/blog/release/v4.0.0/) enviroments,
-with a selected subset usable in most ES5 browsers.
+with a selected subset of these usable in most ES5 compatible browsers.
 
 # table of contents
 
