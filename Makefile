@@ -18,6 +18,10 @@ publish:
 docs:
 	./node_modules/.bin/jsdoc -c .jsdoc.json --verbose
 
+changelog:
+	./node_modules/.bin/conventional-changelog -p eslint -i CHANGELOG.md -s
+	cp CHANGELOG.md dist/CHANGELOG.md
+
 readme:
 	./node_modules/.bin/markdown-toc -i README.md
 	cp README.md dist/README.md
@@ -25,5 +29,5 @@ readme:
 clean:
 	node scripts/clean-module.js $(PACKAGE)
 
-.PHONY:  all compile build prepare publish docs readme clean
-.SILENT: all compile build prepare publish docs readme clean
+.PHONY:  all compile build prepare publish docs changelog readme clean
+.SILENT: all compile build prepare publish docs changelog readme clean
