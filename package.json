@@ -1,5 +1,11 @@
 {
+  "name": "cm",
+  "version": "0.6.0-dev",
   "private": true,
+  "scripts": {
+    "build": "echo \"Not implemented\" && exit 0",
+    "test": "echo \"None created\" && exit 0"
+  },
   "dependencies": {
     "npm-run-all": "4.0.2",
     "markdown-toc": "1.1.0",
