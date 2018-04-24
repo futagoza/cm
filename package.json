@@ -39,9 +39,5 @@
     },
     "engines": {
         "node": ">= 4.0.0"
-    },
-    "eslintConfig": {
-        "extends": "futagozaryuu/node-v4",
-        "root": true
     }
 }
