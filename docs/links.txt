@@ -1,0 +1,14 @@
+https://github.com/futagoza/cm
+https://github.com/futagoza/cm/tree/legacy
+https://github.com/futagoza/ePEG.js
+https://www.npmjs.com/package/deep-eql
+https://www.npmjs.com/package/equals
+https://github.com/jkroso/type
+https://github.com/component/type
+https://www.npmjs.com/package/typeof
+https://github.com/visionmedia/debug/tree/v3/src
+https://github.com/eslint/eslint-release/blob/master/lib/release-ops.js#L344
+https://www.npmjs.com/package/jsonc-parser
+https://ponyfoo.com/articles/observables-coming-to-ecmascript
+https://github.com/juliangruber/binary-extract
+http://node.green/

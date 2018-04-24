@@ -1,43 +1,30 @@
 {
-  "name": "cm",
-  "version": "0.6.0",
-  "main": "index.js",
-  "browser": "browser.js",
-  "description": "A collection of classes and functions usable in Node.js v4+",
-  "keywords": [
-    "cm",
-    "common",
-    "utils",
-    "browser",
-    "node",
-    "nwjs",
-    "electron"
-  ],
-  "homepage": "https://github.com/futagoza/cm",
-  "author": {
-    "name": "Futago-za Ryuu",
-    "email": "futagoza.ryuu@gmail.com",
-    "url": "https://futagoza.github.io/"
-  },
-  "license": "MIT",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/futagoza/cm.git"
-  },
-  "bugs": {
-    "url": "https://github.com/futagoza/cm/issues"
-  },
-  "dependencies": {
-      "micromatch": "2.3.11",
-      "rimraf": "2.6.1",
-      "babel-runtime": "6.23.0"
-  },
-  "devDependencies": {
-  },
-  "engines": {
-    "node": ">= 4.0.0"
-  }
+    "name": "cm",
+    "version": "0.3.2",
+    "description": "A collection of classes and functions usable in Node.js v4+",
+    "keywords": [
+        "cm",
+        "common",
+        "utils",
+        "browser",
+        "node",
+        "nwjs",
+        "electron"
+    ],
+    "repository": "futagoza/cm",
+    "bugs": "https://github.com/futagoza/cm/issues",
+    "license": "MIT",
+    "author": "Futago-za Ryuu",
+    "browser": "browser.js",
+    "main": "index.js",
+    "module": "index.es.js",
+    "typings": "index.d.ts",
+    "dependencies": {
+        "micromatch": "2.3.11",
+        "rimraf": "2.6.1",
+        "babel-runtime": "6.23.0"
+    },
+    "engines": {
+        "node": ">= 4.0.0"
+    }
 }
