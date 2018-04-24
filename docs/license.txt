@@ -1,2 +1,0 @@
-Copyright © 2012 - 2017 Futago-za Ryuu, https://github.com/futagoza
-Released under the MIT License, http://opensource.org/licenses/MIT
