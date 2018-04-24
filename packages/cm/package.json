@@ -1,0 +1,30 @@
+{
+	"name": "cm",
+	"version": "0.3.2",
+	"main": "./index.js",
+	"homepage": "http://github.com/futagoza/cm",
+	"description": "common Node modules/utils that I use",
+	"keywords": [
+		"common", "modules", "require", "db", "json",
+		"node", "browser", "build", "coffee-script", "typescript", "javascript",
+		"argv", "cache", "debug", "events", "expose", "jsondb", "fs", "tpl", "utils"
+	],
+	"author": {
+		"name":  "Futago-za Ryuu",
+		"email": "futagoza.ryuu@gmail.com",
+		"url": "http://futagoza.github.io/"
+	},
+	"repository": {
+		"type": "git",
+		"url":  "http://github.com/futagoza/cm.git"
+	},
+	"dependencies": {
+		"mkdirp": "*",
+		"uglify-js": "*",
+		"shelljs": "*",
+		"coffee-script": "*",
+		"typescript": "*"
+	},
+	"readme": "./README",
+	"license": "./LICENSE"
+}
