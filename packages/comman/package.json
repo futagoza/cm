@@ -1,0 +1,8 @@
+{
+    "name": "comman",
+    "description": "common Node modules/utils that I use",
+    "version": "0.1.0",
+    "main": "./index.js",
+    "readme": "./README",
+    "license": "./LICENSE"
+}
