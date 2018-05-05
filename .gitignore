@@ -1,9 +1,4 @@
-/dist/docs
-/dist/node_modules
-/dist/**/*.js
-/dist/**/*.map
-/dist/README.md
-/node_modules
-/.eslintcache
-/.mtcache.json
-/npm-debug.log
+packages/**/out
+node_modules
+.eslintcache
+/*.log
