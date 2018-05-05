@@ -11,7 +11,7 @@ const pump = require( "pump" );
 task( "lint", () => pump(
 
     src( [
-        "packages/**/*.js",
+        "packages/@futagoza/**/*.js",
         "gulpfile.babel.js"
     ] ),
     eslint( { dotfiles: true } ),
@@ -23,7 +23,7 @@ task( "lint", () => pump(
 // Run tests.
 task( "test", () => pump(
 
-    src( "packages/**/*.{spec,test}.js", { read: false } ),
+    src( "packages/@futagoza/**/*.{spec,test}.js", { read: false } ),
     mocha()
 
 ) );
