@@ -15,7 +15,7 @@
         "pump": "3.0.0",
         "gulp-eslint": "^4.0.0",
         "eslint-config-futagozaryuu": "^4.18.0",
-        "gulp-mocha": "^5.0.0"
+        "gulp-mocha": "^6.0.0"
     },
     "engines": {
         "node": ">= 6.0.0"
