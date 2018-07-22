@@ -77,5 +77,5 @@ the `dist/package.json` and `README.md`. You can find the html documentation wit
 
 # license
 
-Copyright © 2012-2017 Futago-za Ryuu, [https://github.com/futagoza](https://github.com/futagoza)<br>
+Copyright © 2012-2018 Futago-za Ryuu, [https://github.com/futagoza](https://github.com/futagoza)<br>
 Released under the MIT License, [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT).
