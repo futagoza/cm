@@ -12,7 +12,7 @@ task( "lint", () => pump(
 
     src( [
         "packages/@futagoza/**/*.js",
-        "gulpfile.babel.js"
+        "gulpfile.js"
     ] ),
     eslint( { dotfiles: true } ),
     eslint.format(),
