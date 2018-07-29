@@ -18,29 +18,31 @@ const { MAX_SAFE_INTEGER } = Number;
 function CreateFlattenedArray( S, T, D, F ) {
 
     const length = S.length;
-    const depth = D === 0 ? false
-                : D === Infinity ? Infinity
-                : D - 1;
+    let element, sourceIndex, targetIndex;
 
-    let index, value;
-    for ( index = 0; index < length; ++index ) {
+    for ( sourceIndex = 0; sourceIndex < length; ++sourceIndex ) {
 
-        if ( ! ( index in S ) ) continue;
+        if ( ! ( sourceIndex in S ) ) continue;
 
-        value = S[ index ];
+        element = S[ sourceIndex ];
 
-        if ( F ) value = F( value, index, S );
+        if ( D > 0 ) {
 
-        if ( isArray( value ) && depth !== false ) {
+            if ( F ) element = F( element, sourceIndex, S );
 
-            CreateFlattenedArray( value, T, depth, F );
-            continue;
+            if ( isArray( element ) ) {
+
+                CreateFlattenedArray( element, T, D - 1, F );
+                continue;
+
+            }
 
         }
 
-        if ( index >= MAX_SAFE_INTEGER ) throw new RangeError( "index too large" );
+        targetIndex = T.length;
+        if ( targetIndex >= MAX_SAFE_INTEGER ) throw new RangeError( "index too large" );
 
-        T[ T.length ] = value;
+        T[ targetIndex ] = element;
 
     }
 
