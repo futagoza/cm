@@ -5,8 +5,16 @@ const { MAX_SAFE_INTEGER } = Number;
 
 /**
  * > _THIS API IS NOT MEANT FOR PUBLIC CONSUMPTION_
- *
+ * 
  * The core method behind my `Array#flat*` ponyfills.
+ * 
+ * This diverts from the spec defined for `FlattenIntoArray` by:
+ * 
+ * - not requiring the source length
+ * - not requiring a thisArg for the callback
+ * - source and target args switched around
+ * - not following the spec in order to execute
+ * - allowing depth with callback as long as `depth > 0`
  * 
  * @private
  * @param {Array} S The source array containing elements to copy
