@@ -1,8 +1,6 @@
 "use strict";
 
-const src = require( "gulp" ).src;
-const series = require( "gulp" ).series;
-const task = require( "gulp" ).task;
+const { series, src, task } = require( "gulp" );
 const eslint = require( "gulp-eslint" );
 const mocha = require( "gulp-mocha" );
 const pump = require( "pump" );

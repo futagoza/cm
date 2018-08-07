@@ -48,7 +48,7 @@ function CreateFlattenedArray( S, T, D, F ) {
         }
 
         targetIndex = T.length;
-        if ( targetIndex >= MAX_SAFE_INTEGER ) throw new RangeError( "index too large" );
+        if ( targetIndex >= MAX_SAFE_INTEGER ) throw new TypeError( "index too large" );
 
         T[ targetIndex ] = element;
 
