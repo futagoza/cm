@@ -12,7 +12,7 @@ const P = require( "./lib/ImportablePath" )( "array.lastItem( value[, element] )
  * @specification esnext (stage 1)
  * @since 1.0.0-alpha.0
  * @param {Array} value An array
- * @param {Array} [item] An optional value to overide the last element
+ * @param {*} [item] An optional value to overide the last element
  * @returns {*} The right-most element
  */
 function lastItem( value, item ) {
