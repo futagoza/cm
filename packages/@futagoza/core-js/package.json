@@ -1,7 +1,7 @@
 {
     "name": "@futagoza/core-js",
     "version": "1.0.0-alpha.0",
-    "description": "Ponyfill's for some native ES2017+ (Node.js v7+) built-in methods",
+    "description": "Ponyfill's for some native ES2017+ built-in methods",
     "license": "MIT",
     "repository": "https://github.com/futagoza/cm/tree/master/packages/@futagoza/core-js",
     "author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
