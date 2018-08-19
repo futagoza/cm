@@ -2,16 +2,17 @@
 
 const { expect } = require( "chai" );
 const entries = require( "../object.entries" );
+const fromEntries = require( "../object.fromEntries" );
 const values = require( "../object.values" );
 const ImportablePath = require( "../lib/ImportablePath" );
+
+const a = {};
+const b = {};
+const c = {};
 
 describe( ImportablePath( "object.entries" ), () => {
 
     const equal = ( A, B ) => expect( entries( A ) ).to.deep.equal( B );
-
-    const a = {};
-    const b = {};
-    const c = {};
 
     it( "basic support", () => {
 
@@ -119,13 +120,75 @@ describe( ImportablePath( "object.entries" ), () => {
 
 } );
 
+describe( ImportablePath( "object.fromEntries" ), () => {
+
+    const equal = ( A, B ) => expect( fromEntries( A ) ).to.deep.equal( B );
+
+    it( "should throw on a bad argument", () => {
+
+        const badArgs = [ void 0, null, "", {}, true, false, 42, /a/g ];
+        const arrayExpectation = /iterable is expected to be an array/;
+
+        badArgs.forEach( badArg => {
+
+            expect( () => fromEntries( badArg ) ).to.throw( arrayExpectation );
+
+        } );
+
+    } );
+
+    it( "basic support", () => {
+
+        const array = [ [ "a", a ], [ "b", b ], [ "c", c ] ];
+        const target = { a: a, b: b, c: c };
+
+        equal( array, target );
+
+    } );
+
+    it( "duplicate entries are included", () => {
+
+        const array = [ [ "a", a ], [ "b", a ], [ "c", c ] ];
+        const target = { a: a, b: a, c: c };
+
+        equal( array, target );
+
+    } );
+
+    it( "nullish entries are ignored", () => {
+
+        const array = [ [ "a", a ], null, [ "c", c ], [ "b", b ] ];
+        const target = { a: a, c: c };
+
+        delete array[ 3 ];
+
+        equal( array, target );
+
+    } );
+
+    it( "should throw on a bad entry (non-pair entry)", () => {
+
+        const array = [ [ "a", a ], "b", [ "c", c ] ];
+
+        expect( () => fromEntries( array ) ).to.throw( /is expected to be an array/ );
+
+        array[ 1 ] = [ "b" ];
+
+        expect( () => fromEntries( array ) ).to.throw( /should contain at least 2 elements/ );
+
+    } );
+
+    /* it( "", () => {
+
+        //
+
+    } ); */
+
+} );
+
 describe( ImportablePath( "object.values" ), () => {
 
     const equal = ( A, B ) => expect( values( A ) ).to.deep.equal( B );
-
-    const a = {};
-    const b = {};
-    const c = {};
 
     it( "basic support", () => {
 
