@@ -1,4 +1,4 @@
-This module contains [ponyfill's](https://ponyfill.com/) for some native ES2017+ built-in methods, and are meant to be used with packages on Node.js v6 or higher, but can also be used in the browser via [Babel](https://babeljs.io/) and [Browserify](http://browserify.org/)/[Rollup](https://rollupjs.org/).
+This module contains [ponyfill's](https://ponyfill.com/) for some native ES2017+ built-in methods, and are meant to be used with packages on Node.js v6 or higher, but can also be used in the browser via [Babel](https://babeljs.io/) and a package (or if you prefer, _web application_) bundler.
 
 ## api
 
