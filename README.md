@@ -33,7 +33,9 @@ yarn install
 
 # packages
 
-* [@futagoza/core-js](https://github.com/futagoza/cm/tree/master/packages/@futagoza/core-js) [![npm version](https://img.shields.io/npm/v/@futagoza/core-js.svg)](https://www.npmjs.com/package/@futagoza/core-js)
+| package | npm version |
+| ------- | ----------- |
+| [@futagoza/core-js](https://github.com/futagoza/cm/tree/master/packages/@futagoza/core-js) | [![npm](https://img.shields.io/npm/v/@futagoza/core-js.svg)](https://www.npmjs.com/package/@futagoza/core-js) |
 
 # documentation
 
