@@ -34,9 +34,28 @@ yarn install
 
 # packages
 
-| package | npm version |
-| ------- | ----------- |
-| [@futagoza/core-js](https://github.com/futagoza/cm/tree/master/packages/@futagoza/core-js) | [![npm](https://img.shields.io/npm/v/@futagoza/core-js.svg)](https://www.npmjs.com/package/@futagoza/core-js) |
+| package | release | dependency status | weight |
+| ------- | ------- | ----------------- | ------ |
+| [cm][011] | [![release][012]][013] | [![dependencies][014]][015] | [![install size][016]][017] |
+| [@futagoza/core-js][021] | [![release][022]][023] | [![dependencies][024]][025] | [![install size][026]][027] |
+
+<!-- cm -->
+[011]: https://github.com/futagoza/cm/tree/master/packages/cm
+[012]: https://img.shields.io/npm/v/cm.svg
+[013]: https://www.npmjs.com/package/cm
+[014]: https://img.shields.io/david/futagoza/cm.svg?path=packages/cm
+[015]: https://david-dm.org/futagoza/cm?path=packages/cm
+[016]: https://packagephobia.now.sh/badge?p=cm
+[017]: https://packagephobia.now.sh/result?p=cm
+
+<!-- @futagoza/core-js -->
+[021]: https://github.com/futagoza/cm/tree/master/packages/@futagoza/core-js
+[022]: https://img.shields.io/npm/v/@futagoza/core-js.svg
+[023]: https://www.npmjs.com/package/@futagoza/core-js
+[024]: https://img.shields.io/david/futagoza/cm.svg?path=packages/@futagoza/core-js
+[025]: https://david-dm.org/futagoza/cm?path=packages/@futagoza/core-js
+[026]: https://packagephobia.now.sh/badge?p=@futagoza/core-js
+[027]: https://packagephobia.now.sh/result?p=@futagoza/core-js
 
 # documentation
 
