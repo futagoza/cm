@@ -1,0 +1,27 @@
+{
+    "name": "@futagoza/cli-utils",
+    "version": "1.5.1",
+    "description": "A set of function's for use in scripts that interact with the CLI.",
+    "keywords": [
+        "cli",
+        "util",
+        "color",
+        "log",
+        "warn",
+        "error",
+        "argv",
+        "parseArgv"
+    ],
+    "homepage": "https://github.com/futagoza/cm",
+    "repository": "https://github.com/futagoza/cm/tree/master/packages/cli-utils",
+    "license": "MIT",
+    "author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
+    "main": "index.js",
+    "dependencies": {
+        "chalk": "2.4.2",
+        "dateformat": "3.0.3"
+    },
+    "engines": {
+        "node": ">= 6"
+    }
+}

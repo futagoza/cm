@@ -35,6 +35,7 @@ yarn install
 | ------- | ------- | ----------------- | ------ |
 | [cm][011] | [![release][012]][013] | [![dependencies][014]][015] | [![install size][016]][017] |
 | [@futagoza/child-process][031] | [![release][032]][033] | [![dependencies][034]][035] | [![install size][036]][037] |
+| [@futagoza/cli-utils][041] | [![release][042]][043] | [![dependencies][044]][045] | [![install size][046]][047] |
 | [@futagoza/core-js][021] | [![release][022]][023] | [![dependencies][024]][025] | [![install size][026]][027] |
 
 <!-- cm -->
@@ -54,6 +55,15 @@ yarn install
 [035]: https://david-dm.org/futagoza/cm?path=packages/child-process
 [036]: https://packagephobia.now.sh/badge?p=@futagoza/child-process
 [037]: https://packagephobia.now.sh/result?p=@futagoza/child-process
+
+<!-- @futagoza/cli-utils -->
+[041]: https://github.com/futagoza/cm/tree/master/packages/cli-utils
+[042]: https://img.shields.io/npm/v/@futagoza/cli-utils.svg
+[043]: https://www.npmjs.com/package/@futagoza/cli-utils
+[044]: https://img.shields.io/david/futagoza/cm.svg?path=packages/cli-utils
+[045]: https://david-dm.org/futagoza/cm?path=packages/cli-utils
+[046]: https://packagephobia.now.sh/badge?p=@futagoza/cli-utils
+[047]: https://packagephobia.now.sh/result?p=@futagoza/cli-utils
 
 <!-- @futagoza/core-js -->
 [021]: https://github.com/futagoza/cm/tree/master/packages/@futagoza/core-js
