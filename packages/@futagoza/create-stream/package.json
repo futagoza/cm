@@ -1,0 +1,23 @@
+{
+    "name": "@futagoza/create-stream",
+    "version": "1.0.0",
+    "description": "Helpers to create through2 streams from different types of functions.",
+    "keywords": [
+        "stream",
+        "transform",
+        "function",
+        "callback",
+        "Promise"
+    ],
+    "homepage": "https://github.com/futagoza/cm",
+    "repository": "https://github.com/futagoza/cm/tree/master/packages/create-stream",
+    "license": "MIT",
+    "author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
+    "main": "index.js",
+    "dependencies": {
+        "through2": "2.0.5"
+    },
+    "engines": {
+        "node": ">= 6"
+    }
+}

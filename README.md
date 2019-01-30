@@ -37,6 +37,7 @@ yarn install
 | [@futagoza/child-process][031] | [![release][032]][033] | [![dependencies][034]][035] | [![install size][036]][037] |
 | [@futagoza/cli-utils][041] | [![release][042]][043] | [![dependencies][044]][045] | [![install size][046]][047] |
 | [@futagoza/core-js][021] | [![release][022]][023] | [![dependencies][024]][025] | [![install size][026]][027] |
+| [@futagoza/create-stream][051] | [![release][052]][053] | [![dependencies][054]][055] | [![install size][056]][057] |
 
 <!-- cm -->
 [011]: https://github.com/futagoza/cm/tree/master/packages/cm
@@ -73,6 +74,15 @@ yarn install
 [025]: https://david-dm.org/futagoza/cm?path=packages/@futagoza/core-js
 [026]: https://packagephobia.now.sh/badge?p=@futagoza/core-js
 [027]: https://packagephobia.now.sh/result?p=@futagoza/core-js
+
+<!-- @futagoza/create-stream -->
+[051]: https://github.com/futagoza/cm/tree/master/packages/create-stream
+[052]: https://img.shields.io/npm/v/@futagoza/create-stream.svg
+[053]: https://www.npmjs.com/package/@futagoza/create-stream
+[054]: https://img.shields.io/david/futagoza/cm.svg?path=packages/create-stream
+[055]: https://david-dm.org/futagoza/cm?path=packages/create-stream
+[056]: https://packagephobia.now.sh/badge?p=@futagoza/create-stream
+[057]: https://packagephobia.now.sh/result?p=@futagoza/create-stream
 
 ## Documentation
 
