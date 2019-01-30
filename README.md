@@ -34,6 +34,7 @@ yarn install
 | package | release | dependency status | weight |
 | ------- | ------- | ----------------- | ------ |
 | [cm][011] | [![release][012]][013] | [![dependencies][014]][015] | [![install size][016]][017] |
+| [@futagoza/child-process][031] | [![release][032]][033] | [![dependencies][034]][035] | [![install size][036]][037] |
 | [@futagoza/core-js][021] | [![release][022]][023] | [![dependencies][024]][025] | [![install size][026]][027] |
 
 <!-- cm -->
@@ -44,6 +45,15 @@ yarn install
 [015]: https://david-dm.org/futagoza/cm?path=packages/cm
 [016]: https://packagephobia.now.sh/badge?p=cm
 [017]: https://packagephobia.now.sh/result?p=cm
+
+<!-- @futagoza/child-process -->
+[031]: https://github.com/futagoza/cm/tree/master/packages/child-process
+[032]: https://img.shields.io/npm/v/@futagoza/child-process.svg
+[033]: https://www.npmjs.com/package/@futagoza/child-process
+[034]: https://img.shields.io/david/futagoza/cm.svg?path=packages/child-process
+[035]: https://david-dm.org/futagoza/cm?path=packages/child-process
+[036]: https://packagephobia.now.sh/badge?p=@futagoza/child-process
+[037]: https://packagephobia.now.sh/result?p=@futagoza/child-process
 
 <!-- @futagoza/core-js -->
 [021]: https://github.com/futagoza/cm/tree/master/packages/@futagoza/core-js
