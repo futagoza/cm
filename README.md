@@ -1,4 +1,4 @@
-[![Build Status](https://futagoza.visualstudio.com/cm/_apis/build/status/cmci?branchName=master)](https://futagoza.visualstudio.com/cm/_build/latest?definitionId=2?branchName=master)
+[![Build Status](https://futagoza.visualstudio.com/cm/_apis/build/status/futagoza.cm?branchName=master)](https://futagoza.visualstudio.com/cm/_build/latest?definitionId=3?branchName=master)
 [![Codecov](https://codecov.io/gh/futagoza/jcc/branch/master/graph/badge.svg)](https://codecov.io/gh/futagoza/cm)
 [![License](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 
