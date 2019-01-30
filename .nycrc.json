@@ -1,0 +1,18 @@
+{
+    "all": true,
+    "cache": true,
+    "exclude": [
+        "**/node_modules/**",
+        "packages/**/out",
+        "packages/cm",
+        "packages/comman"
+    ],
+    "include": [
+        "packages/**"
+    ],
+    "reporter": [
+        "cobertura",
+        "lcov",
+        "text-summary"
+    ]
+}

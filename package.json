@@ -5,17 +5,20 @@
         "packages/@futagoza/*"
     ],
     "scripts": {
-        "lint": "gulp lint",
-        "test": "gulp test"
+        "lint": "eslint .",
+        "test": "nyc mocha",
+        "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
     },
     "devDependencies": {
-        "@types/node": "6",
-        "gulp": "^4.0.0",
-        "pump": "^3.0.0",
-        "gulp-eslint": "^5.0.0",
-        "eslint-config-futagozaryuu": "^5.0.0",
-        "gulp-mocha": "^6.0.0",
-        "chai":"^4.1.0"
+        "codecov": "3.1.0",
+        "chai": "4.2.0",
+        "chai-like": "1.1.1",
+        "eslint": "5.12.1",
+        "eslint-config-futagozaryuu": "5.6.0",
+        "mocha": "5.2.0",
+        "mocha-junit-reporter": "1.18.0",
+        "mocha-multi-reporters": "1.1.7",
+        "nyc": "13.1.0"
     },
     "engines": {
         "node": ">= 6.0.0"

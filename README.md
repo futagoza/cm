@@ -1,4 +1,5 @@
-[![Build status](https://img.shields.io/travis/futagoza/cm.svg)](https://travis-ci.org/futagoza/cm)
+[![Build Status](https://futagoza.visualstudio.com/cm/_apis/build/status/cmci?branchName=master)](https://futagoza.visualstudio.com/cm/_build/latest?definitionId=2?branchName=master)
+[![Codecov](https://codecov.io/gh/futagoza/jcc/branch/master/graph/badge.svg)](https://codecov.io/gh/futagoza/cm)
 [![License](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 
 This is a collection of modules usable in [Node.js v6+](https://nodejs.org/en/blog/release/v6.0.0/) environments, with a selected subset of these packages usable in most browsers via [Babel](https://babeljs.io/) and [package bundlers](#package-bundlers). 
