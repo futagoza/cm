@@ -52,7 +52,7 @@ It is recommended to use a package (or if you prefer, _web application_) bundler
 
 # history
 
-The package's in this repository simply started as single file utility modules that I copy-pasted into other projects whenever I needed them. In 2014 I decided to make a dedicated package on NPM (first [common](https://www.npmjs.com/package/comman), then [cm](https://www.npmjs.com/package/cm)) that I would just include via the `dependencies` field in my `package.json` files, but in less then a year that became a hassle to maintain as I wasn't the type to manage multiple projects. That has changed over the last year (2017+), and I'm really starting to need a set of central utility packages, so here's for attempt 4 🍺
+The package's in this repository simply started as single file utility modules that I copy-pasted into other projects whenever I needed them. In 2012 I decided to make a dedicated package on NPM (first [common](https://www.npmjs.com/package/comman), then [cm](https://www.npmjs.com/package/cm)) that I would just include via the `dependencies` field in my `package.json` files, but in less then a year that became a hassle to maintain as I wasn't the type to manage multiple projects. That has changed over the last year (2018+), and I'm really starting to need a set of central utility packages, so here's for attempt 5 🍺
 
 # links
 
@@ -63,5 +63,5 @@ The package's in this repository simply started as single file utility modules t
 
 # license
 
-Copyright © 2012-2018 Futago-za Ryuu, [https://github.com/futagoza](https://github.com/futagoza)<br>
+Copyright © 2019 Futago-za Ryuu, [https://github.com/futagoza](https://github.com/futagoza)<br>
 Released under the MIT License, [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT).
