@@ -1,0 +1,24 @@
+{
+    "name": "@futagoza/node-run",
+    "version": "2.0.0",
+    "description": "Will run 'child_process.spawn()' wrapped in a Promise.",
+    "keywords": [
+        "child_process",
+        "spawn",
+        "Promise",
+        "run",
+        "command",
+        "exec"
+    ],
+    "homepage": "https://github.com/futagoza/cm",
+    "repository": "https://github.com/futagoza/cm/tree/master/packages/@futagoza/node-run",
+    "license": "MIT",
+    "author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
+    "main": "index.js",
+    "dependencies": {
+        "@futagoza/child-process": "*"
+    },
+    "engines": {
+        "node": ">= 6"
+    }
+}

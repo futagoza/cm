@@ -38,6 +38,7 @@ yarn install
 | [@futagoza/cli-utils][041] | [![release][042]][043] | [![dependencies][044]][045] | [![install size][046]][047] |
 | [@futagoza/core-js][021] | [![release][022]][023] | [![dependencies][024]][025] | [![install size][026]][027] |
 | [@futagoza/create-stream][051] | [![release][052]][053] | [![dependencies][054]][055] | [![install size][056]][057] |
+| [@futagoza/node-run][071] | [![release][072]][073] | [![dependencies][074]][075] | [![install size][076]][077] |
 | [@futagoza/publish-package][061] | [![release][062]][063] | [![dependencies][064]][065] | [![install size][066]][067] |
 
 <!-- cm -->
@@ -85,14 +86,23 @@ yarn install
 [056]: https://packagephobia.now.sh/badge?p=@futagoza/create-stream
 [057]: https://packagephobia.now.sh/result?p=@futagoza/create-stream
 
+<!-- @futagoza/node-run -->
+[071]: https://github.com/futagoza/cm/tree/master/packages/@futagoza/node-run
+[072]: https://img.shields.io/npm/v/@futagoza/node-run.svg
+[073]: https://www.npmjs.com/package/@futagoza/node-run
+[074]: https://img.shields.io/david/futagoza/cm.svg?path=packages/@futagoza/node-run
+[075]: https://david-dm.org/futagoza/cm?path=packages/@futagoza/node-run
+[076]: https://packagephobia.now.sh/badge?p=@futagoza/node-run
+[077]: https://packagephobia.now.sh/result?p=@futagoza/node-run
+
 <!-- @futagoza/publish-package -->
-[041]: https://github.com/futagoza/cm/tree/master/packages/@futagoza/publish-package
-[042]: https://img.shields.io/npm/v/@futagoza/publish-package.svg
-[043]: https://www.npmjs.com/package/@futagoza/publish-package
-[044]: https://img.shields.io/david/futagoza/cm.svg?path=packages/@futagoza/publish-package
-[045]: https://david-dm.org/futagoza/cm?path=packages/@futagoza/publish-package
-[046]: https://packagephobia.now.sh/badge?p=@futagoza/publish-package
-[047]: https://packagephobia.now.sh/result?p=@futagoza/publish-package
+[061]: https://github.com/futagoza/cm/tree/master/packages/@futagoza/publish-package
+[062]: https://img.shields.io/npm/v/@futagoza/publish-package.svg
+[063]: https://www.npmjs.com/package/@futagoza/publish-package
+[064]: https://img.shields.io/david/futagoza/cm.svg?path=packages/@futagoza/publish-package
+[065]: https://david-dm.org/futagoza/cm?path=packages/@futagoza/publish-package
+[066]: https://packagephobia.now.sh/badge?p=@futagoza/publish-package
+[067]: https://packagephobia.now.sh/result?p=@futagoza/publish-package
 
 ## Documentation
 
