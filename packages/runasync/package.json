@@ -1,0 +1,21 @@
+{
+    "name": "runasync",
+    "version": "2.0.0",
+    "author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
+    "license": "MIT",
+    "description": "Run a script that exports an `async` function",
+    "keywords": [
+        "cli",
+        "async",
+        "await",
+        "es2017",
+        "node"
+    ],
+    "homepage": "https://github.com/futagoza/cm",
+    "repository": "https://github.com/futagoza/cm/tree/master/packages/runasync",
+    "main": "lib/runAsyncFile.js",
+    "bin": "bin/runasync.js",
+    "engines": {
+        "node": ">= 6.0.0"
+    }
+}
