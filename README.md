@@ -38,6 +38,7 @@ yarn install
 | [@futagoza/cli-utils][041] | [![release][042]][043] | [![dependencies][044]][045] | [![install size][046]][047] |
 | [@futagoza/core-js][021] | [![release][022]][023] | [![dependencies][024]][025] | [![install size][026]][027] |
 | [@futagoza/create-stream][051] | [![release][052]][053] | [![dependencies][054]][055] | [![install size][056]][057] |
+| [@futagoza/publish-package][061] | [![release][062]][063] | [![dependencies][064]][065] | [![install size][066]][067] |
 
 <!-- cm -->
 [011]: https://github.com/futagoza/cm/tree/master/packages/cm
@@ -83,6 +84,15 @@ yarn install
 [055]: https://david-dm.org/futagoza/cm?path=packages/create-stream
 [056]: https://packagephobia.now.sh/badge?p=@futagoza/create-stream
 [057]: https://packagephobia.now.sh/result?p=@futagoza/create-stream
+
+<!-- @futagoza/publish-package -->
+[041]: https://github.com/futagoza/cm/tree/master/packages/publish-package
+[042]: https://img.shields.io/npm/v/@futagoza/publish-package.svg
+[043]: https://www.npmjs.com/package/@futagoza/publish-package
+[044]: https://img.shields.io/david/futagoza/cm.svg?path=packages/publish-package
+[045]: https://david-dm.org/futagoza/cm?path=packages/publish-package
+[046]: https://packagephobia.now.sh/badge?p=@futagoza/publish-package
+[047]: https://packagephobia.now.sh/result?p=@futagoza/publish-package
 
 ## Documentation
 
