@@ -41,6 +41,7 @@ yarn install
 | [@futagoza/node-run][071] | [![release][072]][073] | [![dependencies][074]][075] | [![install size][076]][077] |
 | [@futagoza/publish-package][061] | [![release][062]][063] | [![dependencies][064]][065] | [![install size][066]][067] |
 | [@futagoza/pump][081] | [![release][082]][083] | [![dependencies][084]][085] | [![install size][086]][087] |
+| [@futagoza/sync-yarn-workspaces][091] | [![release][092]][093] | [![dependencies][094]][095] | [![install size][096]][097] |
 
 <!-- cm -->
 [011]: https://github.com/futagoza/cm/tree/master/packages/cm
@@ -113,6 +114,15 @@ yarn install
 [085]: https://david-dm.org/futagoza/cm?path=packages/@futagoza/pump
 [086]: https://packagephobia.now.sh/badge?p=@futagoza/pump
 [087]: https://packagephobia.now.sh/result?p=@futagoza/pump
+
+<!-- @futagoza/sync-yarn-workspaces -->
+[101]: https://github.com/futagoza/cm/tree/master/packages/@futagoza/sync-yarn-workspaces
+[102]: https://img.shields.io/npm/v/@futagoza/sync-yarn-workspaces.svg
+[103]: https://www.npmjs.com/package/@futagoza/sync-yarn-workspaces
+[104]: https://img.shields.io/david/futagoza/cm.svg?path=packages/@futagoza/sync-yarn-workspaces
+[105]: https://david-dm.org/futagoza/cm?path=packages/@futagoza/sync-yarn-workspaces
+[106]: https://packagephobia.now.sh/badge?p=@futagoza/sync-yarn-workspaces
+[107]: https://packagephobia.now.sh/result?p=@futagoza/sync-yarn-workspaces
 
 ## Documentation
 
