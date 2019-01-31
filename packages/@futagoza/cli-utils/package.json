@@ -13,7 +13,7 @@
         "parseArgv"
     ],
     "homepage": "https://github.com/futagoza/cm",
-    "repository": "https://github.com/futagoza/cm/tree/master/packages/cli-utils",
+    "repository": "https://github.com/futagoza/cm/tree/master/packages/@futagoza/cli-utils",
     "license": "MIT",
     "author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
     "main": "index.js",

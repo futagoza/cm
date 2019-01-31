@@ -50,20 +50,20 @@ yarn install
 [017]: https://packagephobia.now.sh/result?p=cm
 
 <!-- @futagoza/child-process -->
-[031]: https://github.com/futagoza/cm/tree/master/packages/child-process
+[031]: https://github.com/futagoza/cm/tree/master/packages/@futagoza/child-process
 [032]: https://img.shields.io/npm/v/@futagoza/child-process.svg
 [033]: https://www.npmjs.com/package/@futagoza/child-process
-[034]: https://img.shields.io/david/futagoza/cm.svg?path=packages/child-process
-[035]: https://david-dm.org/futagoza/cm?path=packages/child-process
+[034]: https://img.shields.io/david/futagoza/cm.svg?path=packages/@futagoza/child-process
+[035]: https://david-dm.org/futagoza/cm?path=packages/@futagoza/child-process
 [036]: https://packagephobia.now.sh/badge?p=@futagoza/child-process
 [037]: https://packagephobia.now.sh/result?p=@futagoza/child-process
 
 <!-- @futagoza/cli-utils -->
-[041]: https://github.com/futagoza/cm/tree/master/packages/cli-utils
+[041]: https://github.com/futagoza/cm/tree/master/packages/@futagoza/cli-utils
 [042]: https://img.shields.io/npm/v/@futagoza/cli-utils.svg
 [043]: https://www.npmjs.com/package/@futagoza/cli-utils
-[044]: https://img.shields.io/david/futagoza/cm.svg?path=packages/cli-utils
-[045]: https://david-dm.org/futagoza/cm?path=packages/cli-utils
+[044]: https://img.shields.io/david/futagoza/cm.svg?path=packages/@futagoza/cli-utils
+[045]: https://david-dm.org/futagoza/cm?path=packages/@futagoza/cli-utils
 [046]: https://packagephobia.now.sh/badge?p=@futagoza/cli-utils
 [047]: https://packagephobia.now.sh/result?p=@futagoza/cli-utils
 
@@ -77,20 +77,20 @@ yarn install
 [027]: https://packagephobia.now.sh/result?p=@futagoza/core-js
 
 <!-- @futagoza/create-stream -->
-[051]: https://github.com/futagoza/cm/tree/master/packages/create-stream
+[051]: https://github.com/futagoza/cm/tree/master/packages/@futagoza/create-stream
 [052]: https://img.shields.io/npm/v/@futagoza/create-stream.svg
 [053]: https://www.npmjs.com/package/@futagoza/create-stream
-[054]: https://img.shields.io/david/futagoza/cm.svg?path=packages/create-stream
-[055]: https://david-dm.org/futagoza/cm?path=packages/create-stream
+[054]: https://img.shields.io/david/futagoza/cm.svg?path=packages/@futagoza/create-stream
+[055]: https://david-dm.org/futagoza/cm?path=packages/@futagoza/create-stream
 [056]: https://packagephobia.now.sh/badge?p=@futagoza/create-stream
 [057]: https://packagephobia.now.sh/result?p=@futagoza/create-stream
 
 <!-- @futagoza/publish-package -->
-[041]: https://github.com/futagoza/cm/tree/master/packages/publish-package
+[041]: https://github.com/futagoza/cm/tree/master/packages/@futagoza/publish-package
 [042]: https://img.shields.io/npm/v/@futagoza/publish-package.svg
 [043]: https://www.npmjs.com/package/@futagoza/publish-package
-[044]: https://img.shields.io/david/futagoza/cm.svg?path=packages/publish-package
-[045]: https://david-dm.org/futagoza/cm?path=packages/publish-package
+[044]: https://img.shields.io/david/futagoza/cm.svg?path=packages/@futagoza/publish-package
+[045]: https://david-dm.org/futagoza/cm?path=packages/@futagoza/publish-package
 [046]: https://packagephobia.now.sh/badge?p=@futagoza/publish-package
 [047]: https://packagephobia.now.sh/result?p=@futagoza/publish-package
 

@@ -10,7 +10,7 @@
         "Promise"
     ],
     "homepage": "https://github.com/futagoza/cm",
-    "repository": "https://github.com/futagoza/cm/tree/master/packages/create-stream",
+    "repository": "https://github.com/futagoza/cm/tree/master/packages/@futagoza/create-stream",
     "license": "MIT",
     "author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
     "main": "index.js",

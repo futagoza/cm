@@ -10,7 +10,7 @@
         "release"
     ],
     "homepage": "https://github.com/futagoza/cm",
-    "repository": "https://github.com/futagoza/cm/tree/master/packages/publish-package",
+    "repository": "https://github.com/futagoza/cm/tree/master/packages/@futagoza/publish-package",
     "license": "MIT",
     "author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
     "main": "index.js",
