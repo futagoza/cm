@@ -1,9 +1,0 @@
-codecov:
-  ci:
-    - futagoza.visualstudio.com
-  notify:
-    require_ci_to_pass: yes
-
-ignore:
-  - "**/*.{spec,test}.js"
-  - "**/*.eslintrc.js"
