@@ -3,9 +3,7 @@
     "cache": true,
     "exclude": [
         "**/node_modules/**",
-        "packages/**/out",
-        "packages/cm",
-        "packages/comman"
+        "packages/**/out"
     ],
     "include": [
         "packages/**"
