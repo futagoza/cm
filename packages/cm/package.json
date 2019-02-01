@@ -1,0 +1,27 @@
+{
+	"name": "cm",
+	"version": "1.0.0-alpha.0",
+	"author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
+	"license": "MIT",
+	"description": "common Node modules/utils that I use",
+	"keywords": [
+		"common",
+		"node",
+		"browser",
+		"javascript",
+		"argv",
+		"cache",
+		"debug",
+		"events",
+		"fs",
+		"utils"
+	],
+	"homepage": "https://github.com/futagoza/cm",
+	"repository": "https://github.com/futagoza/cm/tree/master/packages/cm",
+	"main": "./index.js",
+	"dependencies": {
+	},
+	"engines": {
+		"node": ">= 6.0.0"
+	}
+}
