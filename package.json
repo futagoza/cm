@@ -2,7 +2,8 @@
     "name": "@futagoza/cm",
     "private": true,
     "workspaces": [
-        "packages/@futagoza/*"
+        "packages/@futagoza/*",
+        "packages/*"
     ],
     "scripts": {
         "lint": "eslint .",
