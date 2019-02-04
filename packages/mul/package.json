@@ -1,0 +1,18 @@
+{
+	"name": "mul",
+	"version": "1.0.0-alpha.0",
+	"description": "My utility library",
+	"keywords": [
+		"stl",
+		"standard",
+		"utility"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/futagoza/cm/",
+	"repository": "https://github.com/futagoza/cm/tree/master/packages/@futagoza/mul",
+	"author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
+	"main": "index.js",
+	"engines": {
+		"node": ">= 6"
+	}
+}
