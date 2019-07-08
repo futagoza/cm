@@ -18,7 +18,7 @@ jobs:
   parameters:
     after:
     - script: yarn coverage
-      displayName: 'Publish code coverage results (coveralls.io)'
+      displayName: 'Publish code coverage results (codecov.io)'
       env:
         CODECOV_TOKEN: $(CODECOV_TOKEN)
         GIT_BRANCH: $(Build.SourceBranch)
