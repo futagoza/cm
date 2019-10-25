@@ -2,7 +2,10 @@
 
 module.exports = {
 
-    "extends": "@futagoza/node/6",
+    "extends": [
+        "@futagoza/node/10",
+        "@futagoza/dev/test",
+    ],
     "root": true,
 
 };

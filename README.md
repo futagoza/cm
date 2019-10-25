@@ -2,7 +2,7 @@
 [![Codecov](https://codecov.io/gh/futagoza/cm/branch/master/graph/badge.svg)](https://codecov.io/gh/futagoza/cm)
 [![License](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 
-This is a collection of modules usable in [Node.js v6+](https://nodejs.org/en/blog/release/v6.0.0/) environments, with a selected subset of these packages usable in most browsers via a transformer (e.g. [Babel](https://babeljs.io/)) and [package bundlers](#package-bundlers). 
+This is a collection of modules usable in [Node.js v10+](https://nodejs.org/en/blog/release/v10.0.0/) environments, with a selected subset of these packages usable in most browsers via a transformer (e.g. [Babel](https://babeljs.io/)) and [package bundlers](#package-bundlers). 
 
 - [Install](#install)
   * [cm packages](#cm-packages)
@@ -21,7 +21,7 @@ I recommend adding any package from this repo to your `dependencies` field in yo
 
 ### repository
 
-Your going to need [Git](https://git-scm.com/), [Yarn](https://yarnpkg.com/) and [Node.js v6+](https://nodejs.org/)
+Your going to need [Git](https://git-scm.com/), [Yarn](https://yarnpkg.com/) and [Node.js v10+](https://nodejs.org/)
 
 ```shell
 git clone https://github.com/futagoza/cm.git
