@@ -10,6 +10,7 @@ coverage:
     patch: off
 
 ignore:
+  - "archived/**/*.js"
   - "**/*.{spec,test}.js"
   - "**/*.eslintrc.js"
 
