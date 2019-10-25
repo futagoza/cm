@@ -95,7 +95,7 @@ describe( ImportablePath( "object.entries" ), () => {
                 delete this.b;
                 return 1;
 
-            }
+            },
         } );
 
         equal( o, [ [ "a", 1 ], [ "c", 3 ] ] );
@@ -111,7 +111,7 @@ describe( ImportablePath( "object.entries" ), () => {
                 Object.defineProperty( o, "b", { enumerable: false } );
                 return "A";
 
-            }
+            },
         } );
 
         equal( o, [ [ "a", "A" ] ] );
@@ -271,7 +271,7 @@ describe( ImportablePath( "object.values" ), () => {
                 delete this.b;
                 return 1;
 
-            }
+            },
         } );
 
         equal( o, [ 1, 3 ] );
@@ -287,7 +287,7 @@ describe( ImportablePath( "object.values" ), () => {
                 Object.defineProperty( o, "b", { enumerable: false } );
                 return "A";
 
-            }
+            },
         } );
 
         equal( o, [ "A" ] );

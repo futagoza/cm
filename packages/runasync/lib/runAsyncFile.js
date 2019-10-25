@@ -40,7 +40,7 @@ function runAsyncFile( id, args, cb ) {
 
             return {
                 error: error,
-                result: result
+                result: result,
             };
 
         } );

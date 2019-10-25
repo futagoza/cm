@@ -1,3 +1,5 @@
+/* eslint-disable function-call-argument-newline, function-paren-newline */
+
 "use strict";
 
 const { readFileSync, writeFileSync } = require( "fs" );

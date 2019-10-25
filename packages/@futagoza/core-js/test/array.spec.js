@@ -84,7 +84,7 @@ describe( ImportablePath( "array.flatMap" ), () => {
         const context = {};
         let actual;
 
-        flatMap( [ 1 ], function _assign() { actual = this }, context ); // eslint-disable-line padded-blocks
+        flatMap( [ 1 ], function _assign() { actual = this }, context );
         assert.equal( actual, context, "thisArg isnt working as expected" );
 
     } );

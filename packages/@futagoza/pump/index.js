@@ -1,5 +1,3 @@
-/* eslint-disable no-unneeded-ternary */
-
 "use strict";
 
 const asyncDone = require( "async-done" );

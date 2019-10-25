@@ -1,5 +1,3 @@
-/* eslint-disable no-unneeded-ternary */
-
 "use strict";
 
 const { isSpawnError, run } = require( "@futagoza/child-process" );
