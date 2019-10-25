@@ -1,15 +1,18 @@
 {
-	"name": "mul",
+	"name": "@futagoza/util",
 	"version": "1.0.0-alpha.0",
-	"description": "My utility library",
+	"description": "My utility belt (aka library)",
 	"keywords": [
+		"belt",
+		"lib",
 		"stl",
 		"standard",
+		"utils",
 		"utility"
 	],
 	"license": "MIT",
 	"homepage": "https://github.com/futagoza/cm/",
-	"repository": "https://github.com/futagoza/cm/tree/master/packages/@futagoza/mul",
+	"repository": "https://github.com/futagoza/cm/tree/master/packages/@futagoza/util",
 	"author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
 	"main": "index.js",
 	"engines": {
