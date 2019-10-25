@@ -9,7 +9,7 @@
         "spec": "mocha --reporter progress",
         "lint": "eslint .",
         "test": "nyc mocha",
-        "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+        "coverage": "codecov -f coverage/*.json"
     },
     "devDependencies": {
         "@futagoza/eslint-config": "11.0.1",

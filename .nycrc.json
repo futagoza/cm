@@ -9,7 +9,7 @@
         "packages/**"
     ],
     "reporter": [
-        "lcov",
-        "text-summary"
+        "json",
+        "text"
     ]
 }
