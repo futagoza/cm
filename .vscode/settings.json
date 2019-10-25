@@ -1,5 +1,4 @@
 {
     "typescript.tsdk": "node_modules\\typescript\\lib",
-    "typescript.experimental.useSeparateSyntaxServer": true,
     "eslint.enable": true
 }
