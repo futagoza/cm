@@ -1,4 +1,4 @@
-[![Build Status](https://futagoza.visualstudio.com/cm/_apis/build/status/futagoza.cm?branchName=master)](https://futagoza.visualstudio.com/cm/_build/latest?definitionId=3?branchName=master)
+[![GitHub Actions](https://github.com/futagoza/cm/workflows/ci/badge.svg)](https://github.com/futagoza/cm/actions?workflow=ci)
 [![Codecov](https://codecov.io/gh/futagoza/cm/branch/master/graph/badge.svg)](https://codecov.io/gh/futagoza/cm)
 [![License](https://img.shields.io/badge/license-mit-blue.svg)](https://opensource.org/licenses/MIT)
 

@@ -6,6 +6,7 @@
         "packages/*"
     ],
     "scripts": {
+        "spec": "mocha --reporter progress",
         "lint": "eslint .",
         "test": "nyc mocha",
         "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
@@ -18,8 +19,6 @@
         "chai-like": "1.1.1",
         "eslint": "6.5.1",
         "mocha": "6.2.2",
-        "mocha-junit-reporter": "1.23.0",
-        "mocha-multi-reporters": "1.1.7",
         "nyc": "14.1.1"
     },
     "engines": {

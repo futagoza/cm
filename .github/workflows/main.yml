@@ -1,0 +1,50 @@
+name: ci
+
+on: [ push, pull_request ]
+
+jobs:
+
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Install Node.js
+      uses: actions/setup-node@master
+      with:
+        node-version: 10.x
+
+    - name: Install dependencies
+      run: npx yarn --ignore-engines
+
+    - name: Lint JavaScript files using ESLint
+      run: npm run lint
+
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, windows-latest, macOS-latest ]
+        node-version: [ 10.x, 12.x, 13.x ]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Install Node.js
+      uses: actions/setup-node@master
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npx yarn --ignore-engines
+
+    - name: Run tests
+      run: npm run test
+
+    - name: Publish code coverage results
+      run: npm run coverage
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

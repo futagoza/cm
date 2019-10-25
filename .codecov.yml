@@ -1,6 +1,6 @@
 codecov:
   ci:
-    - futagoza.visualstudio.com
+    - github.com
 
 coverage:
   status:
