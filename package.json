@@ -11,16 +11,16 @@
         "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
     },
     "devDependencies": {
-        "codecov": "3.5.0",
+        "@futagoza/eslint-config": "11.0.1",
+        "@types/node": "6",
+        "codecov": "3.6.1",
         "chai": "4.2.0",
         "chai-like": "1.1.1",
-        "eslint": "6.0.1",
-        "eslint-config-futagozaryuu": "7.0.4",
-        "mocha": "6.1.4",
+        "eslint": "6.5.1",
+        "mocha": "6.2.2",
         "mocha-junit-reporter": "1.23.0",
         "mocha-multi-reporters": "1.1.7",
-        "nyc": "14.1.1",
-        "typescript": "3.5.2"
+        "nyc": "14.1.1"
     },
     "engines": {
         "node": ">= 6.0.0"
