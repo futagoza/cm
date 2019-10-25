@@ -3,6 +3,7 @@
     "cache": true,
     "exclude": [
         "**/node_modules/**",
+        "packages/**/examples",
         "packages/**/out"
     ],
     "include": [
