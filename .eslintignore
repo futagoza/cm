@@ -1,6 +1,0 @@
-/.nyc_output
-/archived
-/coverage
-node_modules
-/packages/**/out
-/src
