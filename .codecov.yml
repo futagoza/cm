@@ -10,11 +10,8 @@ coverage:
     patch: off
 
 ignore:
-  - "archived/**/*.js"
-  - "**/examples/**/*.js"
-  - "**/*.{spec,test}.js"
-  - "**/*.eslintrc.js"
-
-parsers:
-  javascript:
-    enable_partials: yes
+  - "**/*.js"
+  - "**/*.d.ts"
+  - "**/*.spec.ts"
+  - "**/*.test.ts"
+  - "archived/**/*.ts"
