@@ -29,7 +29,7 @@ jobs:
         node-version: 10.x
 
     - name: Install dependencies
-      run: npx yarn --ignore-engines
+      run: npm i
 
     - name: Lint JavaScript files using ESLint
       run: npm run lint
@@ -54,7 +54,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install dependencies
-      run: npx yarn --ignore-engines
+      run: npm i
 
     - name: Run tests
       run: npm run test
