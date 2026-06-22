@@ -1,9 +1,0 @@
-{
-    "extends": "@futagoza",
-    "ignorePatterns": [
-        "archived",
-        "dist",
-        "lib"
-    ],
-    "root": true
-}

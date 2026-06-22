@@ -1,0 +1,9 @@
+{
+    "extends": "@futagoza/tsconfig/node",
+    "include": [
+        "**/*.ts"
+    ],
+    "compilerOptions": {
+        "skipLibCheck": false
+    }
+}
