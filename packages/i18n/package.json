@@ -1,0 +1,17 @@
+{
+    "name": "@futagoza/i18n",
+    "version": "1.0.0-alpha.1",
+    "description": "A simple and easy to use language internationalization library",
+    "keywords": [
+        "i18n",
+        "internationalization"
+    ],
+    "repository": "futagoza/cm",
+    "license": "MIT",
+    "author": "Futago-za Ryuu",
+    "main": "index.js",
+    "type": "module",
+    "engines": {
+        "node": ">= 20"
+    }
+}
