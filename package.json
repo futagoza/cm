@@ -1,27 +1,20 @@
 {
     "name": "@futagoza/cm",
     "private": true,
+    "type": "module",
     "workspaces": [
-        "packages/@futagoza/*",
         "packages/*"
     ],
     "scripts": {
-        "spec": "mocha --reporter progress",
-        "lint": "eslint .",
-        "test": "nyc mocha",
-        "coverage": "codecov -f coverage/*.json"
+        "lint": "eslint",
+        "preview-eslint": "npx @eslint/config-inspector@latest"
     },
     "devDependencies": {
-        "@futagoza/eslint-config": "11.0.1",
-        "@types/node": "10",
-        "codecov": "3.6.1",
-        "chai": "4.2.0",
-        "chai-like": "1.1.1",
-        "eslint": "6.5.1",
-        "mocha": "6.2.2",
-        "nyc": "14.1.1"
+        "@futagoza/tsconfig": "4.1.0",
+        "eslint": "10.4.1",
+        "typescript": "6.0.3"
     },
     "engines": {
-        "node": ">= 10"
+        "node": ">= 20"
     }
 }
